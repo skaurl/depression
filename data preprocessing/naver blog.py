@@ -1,4 +1,3 @@
-import pickle
 import pandas as pd
 import numpy as np
 import re
@@ -6,9 +5,8 @@ from tqdm import tqdm
 import kss
 import matplotlib.pyplot as plt
 
-with open('naver_cafe.pickle', 'rb') as f:
-    df = pickle.load(f)
-    #네이버 카페 크롤링 데이터 불러오기
+df = pd.read_csv('naver_blog.csv',encoding='cp949')
+#네이버 블로그 크롤링 데이터 불러오기
 
 A = []
 for i in tqdm(range(len(df))):
@@ -43,15 +41,15 @@ del df['index']
 df['date'] = pd.to_datetime(df['date'])
 #date 열을 datetime형으로 변경
 
-df.to_csv('naver_cafe.csv', index=False, encoding='cp949')
+df.to_csv('naver_blog.csv', index=False, encoding='cp949')
 
 print('문장의 개수 :', len(df))
 print('문장의 최대 길이 :', max(len(l) for l in df['content']))
 print('문장의 평균 길이 :', sum(map(len, df['content'])) / len(df['content']))
-#네이버 카페 데이터의 기본 통계
+#네이버 블로그 데이터의 기본 통계
 
 plt.hist([len(s) for s in df['content']], bins=100)
 plt.xlabel('length of Data')
 plt.ylabel('number of Data')
 plt.show()
-#네이버 카페 데이터의 문장 길이별 빈도수 그래프
+#네이버 블로그 데이터의 문장 길이별 빈도수 그래프
