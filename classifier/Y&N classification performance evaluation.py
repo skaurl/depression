@@ -38,24 +38,9 @@ if __name__ == "__main__":
 
     model = load_model('/Users/kimnamhyeok/Google 드라이브/한양대학교/2020 프로젝트 학기제/자료/data/classifier/model_yn.h5')
 
-    scores = model.evaluate(x_test, y_test)
-    print(scores)
-    print("정확도: %.2f%%" % (scores[1] * 100))
-
     y_true = list(y_true)
     y_pred = model.predict_classes(x_test)
     y_pred = list(y_pred)
 
     print(classification_report(y_true, y_pred))
     print(pd.crosstab(pd.Series(y_true), pd.Series(y_pred), rownames=['True'], colnames=['Predicted']))
-
-    fpr, tpr, thresholds = roc_curve(y_true, model.predict_proba(x_test)[:, 1])
-
-    plt.plot([0, 1], [0, 1], linestyle='--', color='black')
-    plt.plot(fpr, tpr, linestyle='-', label='model_yn', color='red')
-    plt.xlabel('False Positive Rate')
-    plt.ylabel('True Positive Rate')
-    plt.title('ROC curve of Y&N classifier')
-    plt.text(0.55,0,'AUC of Y&N classifier : {}'.format(round(auc(fpr, tpr),4)))
-    plt.savefig('ROC curve of Y&N classifier.pdf')
-    plt.show()
