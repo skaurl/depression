@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c29d5832-c785-4880-af73-4cdf914723b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/0~9 classification performance evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/0~9 classification performance evaluation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/Y&amp;N classification performance evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/classifier/Y&amp;N classification performance evaluation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +128,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595254066027</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="classification performance evaluation">
+      <created>1595258473684</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1595258473684</updated>
+    </task>
+    <task id="LOCAL-00010" summary="classification performance evaluation">
+      <created>1595258483718</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595258483718</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -141,13 +157,17 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="406" y="76" key="#Classification_Performance_Evaluation/0.23.1440.877@0.23.1440.877" timestamp="1595249309239" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1595254065662">
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1595258483574">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1595254065662" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1595254072070">
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1595258483574" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1595258495904">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1595254072070" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1595258495904" />
+    <state x="421" y="257" key="git4idea.merge.GitPullDialog" timestamp="1595258490465">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="421" y="257" key="git4idea.merge.GitPullDialog/0.23.1440.877@0.23.1440.877" timestamp="1595258490465" />
   </component>
 </project>

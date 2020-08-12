@@ -7,8 +7,7 @@ from tensorflow.keras.models import load_model
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder; LE = LabelEncoder()
 from sklearn.metrics import classification_report
-from sklearn.metrics import roc_curve
-from sklearn.metrics import auc
+import scikitplot as skplt
 
 def convert_to_ord(data):
     try:
@@ -44,3 +43,9 @@ if __name__ == "__main__":
 
     print(classification_report(y_true, y_pred))
     print(pd.crosstab(pd.Series(y_true), pd.Series(y_pred), rownames=['True'], colnames=['Predicted']))
+
+    plt.rcParams["figure.figsize"] = (7, 7)
+    skplt.metrics.plot_roc(y_true, model.predict_proba(x_test))
+    plt.xlim(-0.025, 1.025)
+    plt.ylim(-0.025, 1.025)
+    plt.show()
