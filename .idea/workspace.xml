@@ -32,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="Classification Performance Evaluation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Classification Performance Evaluation" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="depression" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,11 +53,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.Classification Performance Evaluation" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -147,29 +142,40 @@
       <option name="project" value="LOCAL" />
       <updated>1597236923728</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="classifier">
+      <created>1598526974385</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1598526974385</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="data crawling" />
     <MESSAGE value="data preprocessing" />
-    <MESSAGE value="classifier" />
     <MESSAGE value="classification performance evaluation" />
-    <option name="LAST_COMMIT_MESSAGE" value="classification performance evaluation" />
+    <MESSAGE value="classifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="classifier" />
   </component>
   <component name="WindowStateProjectService">
     <state x="406" y="76" key="#Classification_Performance_Evaluation" timestamp="1595249309239">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="406" y="76" key="#Classification_Performance_Evaluation/0.23.1440.877@0.23.1440.877" timestamp="1595249309239" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1597236923534">
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598527035081">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1597236923534" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1597236936144">
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1598527035081" />
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1598526974138">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1597236936144" />
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1598526974138" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1598526980690">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1598526980690" />
     <state x="421" y="257" key="git4idea.merge.GitPullDialog" timestamp="1595258490465">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
