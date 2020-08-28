@@ -20,10 +20,9 @@ def convert_to_ord(data):
 
 def lstm():
     model = Sequential()
-    model.add(LSTM(2 ** 4, input_shape=(64, 1), return_sequences=True))
-    model.add(LSTM(2 ** 4, return_sequences=True))
-    model.add(LSTM(2 ** 4, return_sequences=True))
-    model.add(LSTM(2 ** 4, return_sequences=False))
+    model.add(LSTM(2 ** 3, input_shape=(max_len, 1), return_sequences=True))
+    model.add(LSTM(2 ** 2, return_sequences=True))
+    model.add(LSTM(2 ** 2, return_sequences=False))
 
     model.add(Dense(10))
     model.add(Activation('softmax'))

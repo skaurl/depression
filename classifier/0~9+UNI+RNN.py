@@ -20,10 +20,10 @@ def convert_to_ord(data):
 
 def rnn():
     model = Sequential()
-    model.add(SimpleRNN(2 ** 4, input_shape=(64, 1), return_sequences=True))
-    model.add(SimpleRNN(2 ** 4, return_sequences=True))
-    model.add(SimpleRNN(2 ** 4, return_sequences=True))
-    model.add(SimpleRNN(2 ** 4, return_sequences=False))
+    model.add(SimpleRNN(2 ** 5, input_shape=(max_len, 1), return_sequences=True))
+    model.add(SimpleRNN(2 ** 5, return_sequences=True))
+    model.add(SimpleRNN(2 ** 5, return_sequences=True))
+    model.add(SimpleRNN(2 ** 5, return_sequences=False))
 
     model.add(Dense(10))
     model.add(Activation('softmax'))

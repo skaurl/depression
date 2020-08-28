@@ -20,10 +20,9 @@ def convert_to_ord(data):
 
 def bilstm():
     model = Sequential()
-    model.add(Bidirectional(LSTM(10, return_sequences=True), input_shape=(64, 1)))
-    model.add(Bidirectional(LSTM(10, return_sequences=True)))
-    model.add(Bidirectional(LSTM(10, return_sequences=True)))
-    model.add(Bidirectional(LSTM(10, return_sequences=False)))
+    model.add(Bidirectional(LSTM(2 ** 3, return_sequences=True), input_shape=(max_len, 1)))
+    model.add(Bidirectional(LSTM(2 ** 3, return_sequences=True)))
+    model.add(Bidirectional(LSTM(2 ** 3, return_sequences=False)))
 
     model.add(Dense(2))
     model.add(Activation('softmax'))
