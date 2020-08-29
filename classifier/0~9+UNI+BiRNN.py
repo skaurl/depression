@@ -20,9 +20,9 @@ def convert_to_ord(data):
 
 def birnn():
     model = Sequential()
-    model.add(Bidirectional(SimpleRNN(2 ** 3, return_sequences=True), input_shape=(max_len, 1)))
-    model.add(Bidirectional(SimpleRNN(2 ** 3, return_sequences=True)))
-    model.add(Bidirectional(SimpleRNN(2 ** 3, return_sequences=False)))
+    model.add(Bidirectional(SimpleRNN(2 ** 5, return_sequences=True), input_shape=(max_len, 1)))
+    model.add(Bidirectional(SimpleRNN(2 ** 5, return_sequences=True)))
+    model.add(Bidirectional(SimpleRNN(2 ** 5, return_sequences=False)))
 
     model.add(Dense(10))
     model.add(Activation('softmax'))

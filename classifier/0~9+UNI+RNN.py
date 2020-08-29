@@ -22,7 +22,6 @@ def rnn():
     model = Sequential()
     model.add(SimpleRNN(2 ** 5, input_shape=(max_len, 1), return_sequences=True))
     model.add(SimpleRNN(2 ** 5, return_sequences=True))
-    model.add(SimpleRNN(2 ** 5, return_sequences=True))
     model.add(SimpleRNN(2 ** 5, return_sequences=False))
 
     model.add(Dense(10))
