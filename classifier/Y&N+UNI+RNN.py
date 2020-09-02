@@ -21,8 +21,8 @@ def convert_to_ord(data):
 def rnn():
     model = Sequential()
     model.add(SimpleRNN(2 ** 3, input_shape=(max_len, 1), return_sequences=True))
-    model.add(SimpleRNN(2 ** 2, return_sequences=True))
-    model.add(SimpleRNN(2 ** 2, return_sequences=False))
+    model.add(SimpleRNN(2 ** 3, return_sequences=True))
+    model.add(SimpleRNN(2 ** 3, return_sequences=False))
 
     model.add(Dense(2))
     model.add(Activation('softmax'))
@@ -36,7 +36,7 @@ def rnn():
 
 if __name__ == "__main__":
     max_len = 64
-    epochs = 2**7
+    epochs = 2**10
     batch_size = 2**10
 
     depression_dataset_path = r'depression_dataset_맞춤법O.csv'

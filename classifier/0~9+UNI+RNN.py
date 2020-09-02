@@ -36,7 +36,7 @@ def rnn():
 
 if __name__ == "__main__":
     max_len = 64
-    epochs = 2**7
+    epochs = 2**10
     batch_size = 2**10
 
     depression_dataset_path = r'depression_dataset_맞춤법O.csv'

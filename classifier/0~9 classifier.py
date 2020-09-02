@@ -43,10 +43,10 @@ if __name__ == "__main__":
     output_dim = 200
     filters = 400
     kernel_size = 5
-    epochs = 2**6
+    epochs = 2**10
     batch_size = 2**10
 
-    depression_dataset_path = r'/gdrive/My Drive/TEST/depression_dataset_맞춤법O.csv'
+    depression_dataset_path = r'depression_dataset_맞춤법O.csv'
 
     depression_dataset = pd.read_csv(depression_dataset_path, encoding='cp949')
     depression_dataset = depression_dataset[depression_dataset['label_1']=='Y']
@@ -66,7 +66,7 @@ if __name__ == "__main__":
 
     model, history = conv2d_cnn()
 
-    model.save('/gdrive/My Drive/TEST/model_09.h5')
+    model.save('model_09.h5')
 
     scores = model.evaluate(x_test, y_test)
     print(scores)
