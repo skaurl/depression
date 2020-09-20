@@ -52,6 +52,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -231,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599305975761</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="depression score model">
+      <created>1600504439849</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1600504439849</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -239,7 +247,8 @@
     <MESSAGE value="data preprocessing" />
     <MESSAGE value="classification performance evaluation" />
     <MESSAGE value="classifier" />
-    <option name="LAST_COMMIT_MESSAGE" value="classifier" />
+    <MESSAGE value="depression score model" />
+    <option name="LAST_COMMIT_MESSAGE" value="depression score model" />
   </component>
   <component name="WindowStateProjectService">
     <state x="406" y="76" key="#Classification_Performance_Evaluation" timestamp="1595249309239">
@@ -250,14 +259,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1598527035081" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1599305975523">
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1600504439613">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1599305975523" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1599305981989">
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600504439613" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1600504445070">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1599305981989" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1600504445069" />
     <state x="421" y="257" key="git4idea.merge.GitPullDialog" timestamp="1595258490465">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
