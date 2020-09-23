@@ -253,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600648855625</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="depression score model">
+      <created>1600734453048</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1600734453049</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -273,14 +280,14 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1598527035081" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1600648855419">
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1600734452856">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600648855419" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1600648865338">
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1600734452856" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1600734470317">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1600648865338" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1600734470317" />
     <state x="421" y="257" key="git4idea.merge.GitPullDialog" timestamp="1595258490465">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
