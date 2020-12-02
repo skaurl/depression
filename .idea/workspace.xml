@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c29d5832-c785-4880-af73-4cdf914723b1" name="Default Changelist" comment="" />
+    <list default="true" id="c29d5832-c785-4880-af73-4cdf914723b1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classifier/Y&amp;N+W2V+BiLSTM.py.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/depression score model/descriptive statistics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/depression score model/descriptive statistics.ipynb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -302,37 +306,50 @@
       <option name="project" value="LOCAL" />
       <updated>1601947866239</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="depression score model">
+      <created>1602225014279</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1602225014279</updated>
+    </task>
+    <task id="LOCAL-00036" summary="depression score model">
+      <created>1606901176683</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1606901176683</updated>
+    </task>
+    <task id="LOCAL-00037" summary="depression score model">
+      <created>1606901181319</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1606901181319</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="data crawling" />
     <MESSAGE value="classification performance evaluation" />
     <MESSAGE value="classifier" />
-    <MESSAGE value="depression score model" />
     <MESSAGE value="data preprocessing" />
-    <option name="LAST_COMMIT_MESSAGE" value="data preprocessing" />
+    <MESSAGE value="depression score model" />
+    <option name="LAST_COMMIT_MESSAGE" value="depression score model" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="406" y="76" key="#Classification_Performance_Evaluation" timestamp="1595249309239">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="406" y="76" key="#Classification_Performance_Evaluation/0.23.1440.877@0.23.1440.877" timestamp="1595249309239" />
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598527035081">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1598527035081" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1601947866079">
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1606901181159">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1601947866079" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1601947872125">
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1606901181159" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1602225019208">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1601947872125" />
-    <state x="421" y="257" key="git4idea.merge.GitPullDialog" timestamp="1595258490465">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="421" y="257" key="git4idea.merge.GitPullDialog/0.23.1440.877@0.23.1440.877" timestamp="1595258490465" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1602225019208" />
   </component>
 </project>
