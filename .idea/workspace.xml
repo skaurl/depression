@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c29d5832-c785-4880-af73-4cdf914723b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classifier/Y&amp;N+W2V+BiLSTM.py.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/depression score model/descriptive statistics.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/depression score model/descriptive statistics.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="c29d5832-c785-4880-af73-4cdf914723b1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -327,29 +323,43 @@
       <option name="project" value="LOCAL" />
       <updated>1606901181319</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="depression score model">
+      <created>1606901255122</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1606901255122</updated>
+    </task>
+    <task id="LOCAL-00039" summary="classifier">
+      <created>1606901290030</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1606901290030</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="data crawling" />
     <MESSAGE value="classification performance evaluation" />
-    <MESSAGE value="classifier" />
     <MESSAGE value="data preprocessing" />
     <MESSAGE value="depression score model" />
-    <option name="LAST_COMMIT_MESSAGE" value="depression score model" />
+    <MESSAGE value="classifier" />
+    <option name="LAST_COMMIT_MESSAGE" value="classifier" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598527035081">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1598527035081" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1606901181159">
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1606901289880">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1606901181159" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1602225019208">
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1606901289880" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606901300815">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1602225019208" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1606901300815" />
   </component>
 </project>
