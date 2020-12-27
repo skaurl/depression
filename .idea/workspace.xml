@@ -337,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606901290030</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="classifier">
+      <created>1609055926963</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1609055926963</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -349,17 +356,13 @@
     <option name="LAST_COMMIT_MESSAGE" value="classifier" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598527035081">
+    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1609055926670">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1598527035081" />
-    <state x="297" y="46" key="CommitChangelistDialog2" timestamp="1606901289880">
+    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1609055926670" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1609055929398">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="297" y="46" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1606901289880" />
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606901300815">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1606901300815" />
+    <state x="320" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1609055929398" />
   </component>
 </project>
