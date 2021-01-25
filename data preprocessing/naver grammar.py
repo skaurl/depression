@@ -5,7 +5,7 @@ import time
 import re
 from tqdm import tqdm
 
-df = pd.read_csv('dataset.csv', encoding='cp949')
+df = pd.read_csv('blog text data.csv', encoding='cp949')
 
 driver = webdriver.Chrome('/Users/kimnamhyeok/Google 드라이브/chromedriver')
 
@@ -13,13 +13,13 @@ url = 'https://search.naver.com/search.naver?sm=tab_hty.top&where=nexearch&query
 driver.get(url)
 
 for i in tqdm(range(len(df))):
-    driver.find_element_by_xpath('//*[@id="grammar_checker"]/div[2]/div[1]/div/div[1]/textarea').clear()
+    driver.find_element_by_xpath('//*[@id="grammar_checker"]/div/div[2]/div[1]/div[1]/div/div[1]/textarea').clear()
     #맞춤법 검사기의 입력창을 초기화
 
-    driver.find_element_by_xpath('//*[@id="grammar_checker"]/div[2]/div[1]/div/div[1]/textarea').send_keys('\n' + df.iloc[i, 0])
+    driver.find_element_by_xpath('//*[@id="grammar_checker"]/div/div[2]/div[1]/div[1]/div/div[1]/textarea').send_keys('\n' + df.iloc[i, 3])
     #맞춤법 검사기의 입력창에 문장을 입력
 
-    driver.find_element_by_xpath('//*[@id="grammar_checker"]/div[2]/div[1]/div/div[2]/button').click()
+    driver.find_element_by_xpath('//*[@id="grammar_checker"]/div/div[2]/div[1]/div[1]/div/div[2]/button').click()
     #맞춤법 검사기의 '검사하기' 버튼을 클릭
 
     time.sleep(0.1)
@@ -35,9 +35,9 @@ for i in tqdm(range(len(df))):
 
     if A == '맞춤법 검사 중입니다. 잠시만 기다려주세요.':
         #0.1초로 맞춤법 검사가 안될 경우, 0.5초로 맞춤법 검사를 반복
-        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div[2]/div[1]/div/div[1]/textarea').clear()
-        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div[2]/div[1]/div/div[1]/textarea').send_keys('\n' + df.iloc[i, 0])
-        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div[2]/div[1]/div/div[2]/button').click()
+        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div/div[2]/div[1]/div[1]/div/div[1]/textarea').clear()
+        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div/div[2]/div[1]/div[1]/div/div[1]/textarea').send_keys('\n' + df.iloc[i, 3])
+        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div/div[2]/div[1]/div[1]/div/div[2]/button').click()
         time.sleep(0.5)
         soup = bs(driver.page_source, 'html.parser')
         A = soup.select('div.text_area')[1].select('p')[0].get_text()
@@ -45,9 +45,9 @@ for i in tqdm(range(len(df))):
 
     if A == '맞춤법 검사 중입니다. 잠시만 기다려주세요.':
         #0.5초로 맞춤법 검사가 안될 경우, 1초로 맞춤법 검사를 반복
-        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div[2]/div[1]/div/div[1]/textarea').clear()
-        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div[2]/div[1]/div/div[1]/textarea').send_keys('\n' + df.iloc[i, 0])
-        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div[2]/div[1]/div/div[2]/button').click()
+        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div/div[2]/div[1]/div[1]/div/div[1]/textarea').clear()
+        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div/div[2]/div[1]/div[1]/div/div[1]/textarea').send_keys('\n' + df.iloc[i, 3])
+        driver.find_element_by_xpath('//*[@id="grammar_checker"]/div/div[2]/div[1]/div[1]/div/div[2]/button').click()
         time.sleep(1)
         soup = bs(driver.page_source, 'html.parser')
         A = soup.select('div.text_area')[1].select('p')[0].get_text()
@@ -56,7 +56,7 @@ for i in tqdm(range(len(df))):
     A = ' '.join(re.sub(r'[^0-9a-zA-Zㄱ-ㅎㅏ-ㅣ가-힣]', ' ', str(A)).split())
     #문장에서 숫자, 영어, 한글만 추출
 
-    df.iloc[i, 0] = A
+    df.iloc[i, 3] = A
 
 df.to_csv('dataset.csv', index=False, encoding='cp949')
 driver.quit()
